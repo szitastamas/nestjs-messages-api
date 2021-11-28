@@ -1,0 +1,23 @@
+### Get All
+
+GET http://localhost:8000/messages
+
+
+### Get One
+
+GET http://localhost:8000/messages/123
+
+
+### Create New
+
+POST http://localhost:8000/messages
+Content-Type: application/json
+
+{
+    "content": "Yaaaay"
+}
+
+
+### Delete Message
+
+DELETE http://localhost:8000/messages/2de6bb49-c52a-4d56-9d27-bdf06bff616e
